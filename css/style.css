@@ -1,15 +1,17 @@
 /* all css comment link start  */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0 auto;
 }
@@ -18,6 +20,7 @@ ul li {
     list-style-type: none;
 
 }
+
 h1 h2 h3 h4 h5 h6 p {
     line-height: 0.8;
 }
@@ -30,14 +33,20 @@ h1 h2 h3 h4 h5 h6 p {
 
 
 
-#headerPart{
+#headerPart {
     background: #FFF8F3;
     /* width: 100%; */
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 50px 0px;
+    /* line-height: 100px; */
+}
+
+.logo img {
+    padding-bottom: 135px;
 }
 
 .menu ul {
@@ -64,62 +73,108 @@ h1 h2 h3 h4 h5 h6 p {
     font-weight: 700;
     font-size: 20px;
     color: white;
-    transition: .4s  ;
+    transition: .4s;
 }
-.btn a:hover{
+
+.btn a:hover {
     background: #FFF8F3;
     color: #FD6E0A;
     border: 1px solid #FD6E0A
 }
-#bannerPart{
+
+#bannerPart {
     background: #FFF8F3;
 }
-.bannerLeft{
+
+.bannerLeft {
     width: 50%;
 }
-.bannerLeft h3{
+
+.bannerLeft h3 {
     font-weight: 600;
     font-size: 45px;
     color: #474747;
 
 }
-.bannerLeft h1{
+
+.bannerLeft h1 {
     font-weight: 700;
     font-size: 85px;
     color: #181818;
     padding: 5px 0px;
 }
-.bannerLeft p{
+
+.bannerLeft p {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     padding-bottom: 20px;
+    width: 500px;
 }
-.btnOne a{
+
+.bannerRight {
+    position: relative;
+}
+
+.bannerBg img {
+    position: absolute;
+    bottom: -50%;
+    right: 0%;
+    /* height: 400px; */
+
+
+}
+
+.bannerMen img {
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    /* height: 510px; */
+}
+
+#developer {
+    position: relative;
+}
+
+.devText h2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 75px;
+    font-weight: 700;
+    color: rgba(24, 24, 24, 0.15);
+    background: transparent;
+    height: 100%;
+    /* transform: rotate(180deg); */
+}
+
+.btnOne a {
     padding: 20px 17px;
-    background:#FD6E0A;
+    background: #FD6E0A;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     border-radius: 5px;
     margin-right: 30px;
     transition: .4s;
-    
 }
-.btnOne a:hover{
+
+.btnOne a:hover {
     background: #FFF8F3;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
 }
 
-.btnOne{
+.btnOne {
     padding: 30px 0px;
     padding-bottom: 185px;
-    
+
 }
 
-.btnOne a i{
+.btnOne a i {
     margin-right: 10px;
 }
 
@@ -132,51 +187,55 @@ h1 h2 h3 h4 h5 h6 p {
 
 /* header section part start  */
 
-#aboutpart{
+#aboutpart {
     background-color: #ffffff;
     padding: 130px 0;
-    
-    
+
+
 }
 
-.about{
+.about {
     background-color: #FFF8F3;
     padding: 130px 160px;
     text-align: center;
     border-radius: 10px;
-    
+
 }
-.about h2{
+
+.about h2 {
     font-size: 35;
     font-weight: 700;
-    text-transform: uppercase;
     color: #181818;
     padding-bottom: 30px;
 }
 
-.about p{
+.about p {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
     line-height: 30px;
     padding: 0 65px 30px;
 }
-.aboutitems{
+
+.aboutitems {
     display: flex;
     justify-content: space-around;
 
 }
-.itemsabout{
+
+.itemsabout {
     width: 20%;
     text-align: center;
 }
-.itemsabout h4{
+
+.itemsabout h4 {
     font-size: 20px;
     font-weight: 400;
     color: #757575;
 
 }
-.itmesabout h3{
+
+.itmesabout h3 {
     font-size: 20px;
     font-weight: 700;
     color: #474747;
@@ -191,50 +250,56 @@ h1 h2 h3 h4 h5 h6 p {
 
 
 /* skills section part start  */
-#skillspart{
+#skillspart {
     background-color: #ffffff;
 }
 
-.skillstext{
+.skillstext {
     text-align: center;
     background-color: #ffffff;
     padding: 10px 0;
 }
-.skillstext h2{
+
+.skillstext h2 {
     font-size: 35;
     font-weight: 700;
-    color: #181818 ;
+    color: #181818;
     padding-bottom: 30px;
 }
-.skillstext p{
+
+.skillstext p {
     font-size: 20px;
     font-weight: 400;
     color: #757575;
     padding: 0 120px 50px;
 
 }
-.skillsitems{
+
+.skillsitems {
     display: flex;
     justify-content: space-around;
     padding-bottom: 130px;
 }
-.itemskills{
+
+.itemskills {
     width: 20%;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
     transition: all linear .4s;
 
 }
-.itemskills:hover{
+
+.itemskills:hover {
     transform: scale(1.1);
 }
 
 
-.itemskills img{
+.itemskills img {
     width: 44px;
-    padding-bottom: 30px;  
+    padding-bottom: 30px;
 }
-.itemskills h4{
+
+.itemskills h4 {
     font-size: 20px;
     font-weight: 700;
     color: #181818;
@@ -242,11 +307,11 @@ h1 h2 h3 h4 h5 h6 p {
 }
 
 
-.itemskills p{
+.itemskills p {
     font-size: 16;
     font-weight: 400;
-    color:#757575;
-    
+    color: #757575;
+
 }
 
 /* skills section part end  */
@@ -259,48 +324,54 @@ h1 h2 h3 h4 h5 h6 p {
 
 /* resume section part start  */
 
-#resumepart{
+#resumepart {
     background-color: #ffffff;
 }
 
-.resume{
+.resume {
     padding: 10px 0;
 }
-.resumetext{
+
+.resumetext {
     text-align: center;
 }
-.resumetext h2{
+
+.resumetext h2 {
     font-size: 35px;
     font-weight: 700;
-    color: #181818 ;
-    padding-bottom: 110px; 
+    color: #181818;
+    padding-bottom: 110px;
 }
-.resumeitems{
+
+.resumeitems {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
-.itemsresum{
+
+.itemsresum {
     width: 48%;
     margin: 20px 0;
     padding: 0 70px 0 60px;
 }
 
-.itemsresum h3{
+.itemsresum h3 {
     font-size: 30px;
     font-weight: 700;
     color: #474747;
     padding-bottom: 30px;
 
 }
-.itemsresum h4{
+
+.itemsresum h4 {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
     padding-bottom: 10px;
 }
-.itemsresum h5{
+
+.itemsresum h5 {
     font-size: 20px;
     font-weight: 600;
     color: #757575;
@@ -308,30 +379,30 @@ h1 h2 h3 h4 h5 h6 p {
 
 }
 
-.itemsresum p{
+.itemsresum p {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
     padding: 0 0px 30px 0;
 }
 
-.undirline{
+.undirline {
     width: 100%;
     height: 1px;
     background-color: #757575;
-    
+
 }
 
 
-.resumbtn{
-    width: 100%!important;
+.resumbtn {
+    width: 100% !important;
     text-align: center;
     padding-bottom: 110px;
 }
 
 
 
-.btnDownload a{
+.btnDownload a {
     color: #FFFFFF;
     padding: 18px 30px;
     background: #FD6E0A;
@@ -340,21 +411,25 @@ h1 h2 h3 h4 h5 h6 p {
     font-weight: 700;
     font-size: 20px;
 }
-.btnDownload a i{
+
+.btnDownload a i {
     margin-right: 10px;
 }
-.btnDownload{
+
+.btnDownload {
     padding-top: 10px;
     padding-bottom: 100px;
     margin: 0 auto;
-    
+
 }
-.btnDownload a:hover{
+
+.btnDownload a:hover {
     background: #FFF8F3;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
 
 }
+
 /* resume section part end  */
 
 
@@ -366,26 +441,30 @@ h1 h2 h3 h4 h5 h6 p {
 
 
 /* footer section part start  */
-#footerpart{
-    background-color:#FFF8F3;
+#footerpart {
+    background-color: #FFF8F3;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
-    padding: 140px 0 120px ;
+    padding: 140px 0 120px;
 
 }
-.footertext{
+
+.footertext {
     width: 50%;
 }
-.footertext h3{
+
+.footertext h3 {
     font-size: 35px;
     font-weight: 700;
     color: #181818;
     padding-bottom: 20px;
 
 }
-.footertext p{
+
+.footertext p {
     font-size: 16px;
     font-weight: 400;
     color: #474747;
@@ -394,12 +473,14 @@ h1 h2 h3 h4 h5 h6 p {
     line-height: 16px;
     padding-right: 150px;
 }
-.icon i{
+
+.icon i {
     width: 40px;
     color: #FD6E0A;
     transition: all linear .4s;
 }
-.icon i:hover{
+
+.icon i:hover {
     transform: scale(1.1);
     border: 1 solid #FD6E0A;
 }
@@ -408,19 +489,21 @@ h1 h2 h3 h4 h5 h6 p {
 
 
 
-.footerinput{
+.footerinput {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
-.footerinput h3{
+
+.footerinput h3 {
     font-size: 35px;
     font-weight: 700;
     color: #181818;
     padding-bottom: 20px;
     width: 100%;
 }
-.input{
+
+.input {
     width: 100%;
     height: 65px;
     padding-left: 20px;
@@ -429,7 +512,8 @@ h1 h2 h3 h4 h5 h6 p {
     background-color: #ffffff;
     border: 1px solid #ffffff;
 }
-.message{
+
+.message {
     width: 100%;
     height: 200px;
     border: 1px solid #ffffff;
@@ -437,7 +521,8 @@ h1 h2 h3 h4 h5 h6 p {
     text-transform: capitalize;
     margin-bottom: 20px;
 }
-.btnEnd a{
+
+.btnEnd a {
     color: #FFFFFF;
     padding: 18px 30px;
     background: #FD6E0A;
@@ -446,11 +531,13 @@ h1 h2 h3 h4 h5 h6 p {
     font-weight: 700;
     font-size: 20px;
 }
-.btnEnd{
+
+.btnEnd {
     padding: 20px 0px;
-    
+
 }
-.btnEnd a:hover{
+
+.btnEnd a:hover {
     background: #FFF8F3;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
@@ -468,5 +555,3 @@ h1 h2 h3 h4 h5 h6 p {
 
 /* header section part start  */
 /* header section part end  */
-
-
